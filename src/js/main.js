@@ -5,6 +5,10 @@ require.config({
         parse: {
             deps: ['jquery', 'lodash'],
             exports: 'Parse'
+        },
+        reactRouter: {
+            deps: ['react'],
+            exports: 'ReactRouter'
         }
     },
 
@@ -16,7 +20,8 @@ require.config({
         jsx: 'libs/require-jsx',
         text: 'libs/require-text',
         parse: 'libs/parse-1.6.0',
-        lodash: 'libs/lodash'
+        lodash: 'libs/lodash',
+        reactRouter: 'libs/ReactRouter'
     },
 
     jsx: {
