@@ -1,4 +1,4 @@
-define(['react', 'reactRouter', 'jsx!components/Router'], function(React, ReactRouter, Router) {
+define(['react', 'reactRouter', 'jsx!components/App'], function(React, ReactRouter, App) {
     var initialize = function() {
         // React.render(
         //     React.createElement(Login),
@@ -6,8 +6,8 @@ define(['react', 'reactRouter', 'jsx!components/Router'], function(React, ReactR
         // );
 
         React.render(
-            React.createElement(Router),
-            document.getElementById('content')
+            React.createElement(App),
+            document.body
         );
     };
 

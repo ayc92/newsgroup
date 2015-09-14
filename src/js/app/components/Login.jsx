@@ -16,7 +16,7 @@ define(['react', 'parse'], function(React, Parse) {
             Parse.User.logIn(this.state.email, this.state.password, {
                 success: function(user) {
                     // Do stuff after successful login.
-                    console.log('login successful');
+                    window.location.href = '#/dashboard';
                 },
                 error: function(user, error) {
                     // The login failed. Check error to see why.
