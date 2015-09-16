@@ -1,7 +1,7 @@
 define(['react',
         'reactRouter',
         'jsx!components/Login',
-        'jsx!components/Dashboard'], function (React, ReactRouter, Login, Dashboard) {
+        'jsx!pages/Dashboard'], function (React, ReactRouter, Login, Dashboard) {
 
     var IndexRoute = ReactRouter.IndexRoute;
     var Router = ReactRouter.Router;

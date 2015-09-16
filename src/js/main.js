@@ -14,6 +14,7 @@ require.config({
 
     paths: {
         components: 'app/components',
+        pages: 'app/pages',
         react: 'libs/react-with-addons',
         jquery: 'libs/jquery-2.1.4',
         JSXTransformer: 'libs/JSXTransformer',
@@ -21,7 +22,8 @@ require.config({
         text: 'libs/require-text',
         parse: 'libs/parse-1.6.0',
         lodash: 'libs/lodash',
-        reactRouter: 'libs/ReactRouter'
+        reactRouter: 'libs/ReactRouter',
+        radium: 'libs/radium'
     },
 
     jsx: {

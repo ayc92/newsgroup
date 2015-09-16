@@ -1,8 +1,8 @@
-define(['react'], function(React) {
+define(['react', 'jsx!components/NavBar'], function(React, NavBar) {
     var Dashboard = React.createClass({
         render: function () {
             return (
-                <div>{'This is the dasboard.'}</div>
+                <NavBar />
             );
         }
     });

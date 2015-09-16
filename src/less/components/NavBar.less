@@ -1,0 +1,29 @@
+@navbar-height: 52px;
+
+.navbar {
+    background: #e3e3e3;
+    width: 100%;
+    height: @navbar-height;
+
+    .navbar-left {
+        float: left;
+        line-height: @navbar-height;
+        width: 100px;
+    }
+
+    .navbar-right {
+        float: right;
+        line-height: @navbar-height;
+
+        div {
+            float: left;
+            padding: 0 15px;
+            width: 80px;
+            text-align: center;
+
+            a {
+                display: block;
+            }
+        }
+    }
+}
